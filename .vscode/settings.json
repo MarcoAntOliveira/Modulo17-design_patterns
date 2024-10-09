@@ -1,0 +1,38 @@
+{
+    "editor.fontSize": 13,
+    //"editor.fontFamily": "Cascadia code",
+    "editor.lineHeight": 20,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+    },
+    "editor.fontLigatures": true,
+    "editor.showUnused": true,
+    "editor.wordWrap": "on",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Cascadia Code",
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.formatOnSave": true
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "python.defaultInterpreterPath": "venv/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "python": "clear && python3 -u"
+    },
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    
+    "excalidraw.image": {
+        "exportScale": 1,
+        "exportWithBackground": true,
+        "exportWithDarkMode": true
+    }
+}
